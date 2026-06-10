@@ -211,6 +211,11 @@
     }
   },
   "grok": {
+    "composer-25-fast": {
+      "title": "Grok Composer 2.5 Fast",
+      "description": "Grok Composer 2.5 Fast profile",
+      "model": "grok-composer-2.5-fast"
+    },
     "build-h": {
       "title": "Grok Build High",
       "description": "Grok Build with high effort",
