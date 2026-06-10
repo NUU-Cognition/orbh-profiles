@@ -1,0 +1,239 @@
+{
+  "//": "DO NOT add your custom profiles here — this file is overwritten by `flint orbh profiles update`. Put your personal profiles in profiles.json instead.",
+  "claude": {
+    "f5uc": {
+      "title": "Claude Fable Ultracode",
+      "description": "Fable 5 in ultracode mode — xhigh effort + standing dynamic-workflow orchestration",
+      "model": "claude-fable-5",
+      "effort": "xhigh",
+      "args": [
+        "--settings",
+        "{\"ultracode\":true}"
+      ],
+      "env": {
+        "CLAUDE_CODE_WORKFLOWS": "1"
+      }
+    },
+    "f5mx": {
+      "title": "Claude Fable Max",
+      "description": "Maximum capability Claude Fable 5 profile",
+      "model": "claude-fable-5",
+      "effort": "max"
+    },
+    "f5xh": {
+      "title": "Claude Fable High",
+      "description": "High capability Claude Fable 5 profile",
+      "model": "claude-fable-5",
+      "effort": "xhigh"
+    },
+    "f5h": {
+      "title": "Claude Fable High",
+      "description": "High capability Claude Fable 5 profile",
+      "model": "claude-fable-5",
+      "effort": "high"
+    },
+    "f5m": {
+      "title": "Claude Fable Medium",
+      "description": "Medium capability Claude Fable 5 profile",
+      "model": "claude-fable-5",
+      "effort": "medium"
+    },
+    "o48uc": {
+      "title": "Claude Opus Ultracode",
+      "description": "Opus 4.8 in ultracode mode — xhigh effort + standing dynamic-workflow orchestration",
+      "model": "claude-opus-4-8",
+      "effort": "xhigh",
+      "args": [
+        "--settings",
+        "{\"ultracode\":true}"
+      ],
+      "env": {
+        "CLAUDE_CODE_WORKFLOWS": "1"
+      }
+    },
+    "s461m": {
+      "title": "Claude Sonnet",
+      "description": "Balanced Claude profile for everyday work",
+      "model": "sonnet[1m]",
+      "effort": "high"
+    },
+    "o48mx": {
+      "title": "Claude Opus Max",
+      "description": "Maximum capability Claude profile",
+      "model": "claude-opus-4-8",
+      "effort": "max"
+    },
+    "o48xh": {
+      "title": "Claude Opus High",
+      "description": "High capability Claude profile",
+      "model": "claude-opus-4-8",
+      "effort": "xhigh"
+    },
+    "o48h": {
+      "title": "Claude Opus High",
+      "description": "High capability Claude profile",
+      "model": "claude-opus-4-8",
+      "effort": "high"
+    },
+    "o48m": {
+      "title": "Claude Opus Medium",
+      "description": "Medium capability Claude profile",
+      "model": "claude-opus-4-8",
+      "effort": "medium"
+    },
+    "o47mx": {
+      "title": "Claude Opus Max",
+      "description": "Maximum capability Claude profile",
+      "model": "claude-opus-4-7",
+      "effort": "max"
+    },
+    "o47xh": {
+      "title": "Claude Opus High",
+      "description": "High capability Claude profile",
+      "model": "claude-opus-4-7",
+      "effort": "xhigh"
+    },
+    "o47h": {
+      "title": "Claude Opus High",
+      "description": "High capability Claude profile",
+      "model": "claude-opus-4-7",
+      "effort": "high"
+    },
+    "o47m": {
+      "title": "Claude Opus Medium",
+      "description": "Medium capability Claude profile",
+      "model": "claude-opus-4-7",
+      "effort": "medium"
+    },
+    "o46mx1m": {
+      "title": "Claude Opus Max",
+      "description": "Maximum capability Claude profile",
+      "model": "claude-opus-4-6[1m]",
+      "effort": "max"
+    },
+    "o46h1m": {
+      "title": "Claude Opus High",
+      "description": "High capability Claude profile",
+      "model": "claude-opus-4-6[1m]",
+      "effort": "high"
+    },
+    "o46m1m": {
+      "title": "Claude Opus Medium",
+      "description": "Medium capability Claude profile",
+      "model": "claude-opus-4-6[1m]",
+      "effort": "medium"
+    },
+    "o46mx": {
+      "title": "Claude Opus Max",
+      "description": "Maximum capability Claude profile",
+      "model": "claude-opus-4-6",
+      "effort": "max"
+    },
+    "o46h": {
+      "title": "Claude Opus High",
+      "description": "High capability Claude profile",
+      "model": "claude-opus-4-6",
+      "effort": "high"
+    },
+    "o46m": {
+      "title": "Claude Opus Medium",
+      "description": "Medium capability Claude profile",
+      "model": "claude-opus-4-6",
+      "effort": "medium"
+    }
+  },
+  "codex": {
+    "55xh": {
+      "title": "GPT-5.5 XHigh",
+      "description": "GPT-5.5 profile with xhigh reasoning effort",
+      "model": "gpt-5.5",
+      "reasoningEffort": "xhigh"
+    },
+    "55h": {
+      "title": "GPT-5.5 High",
+      "description": "GPT-5.5 profile with high reasoning effort",
+      "model": "gpt-5.5",
+      "reasoningEffort": "high"
+    },
+    "55m": {
+      "title": "GPT-5.5 Medium",
+      "description": "GPT-5.5 profile with medium reasoning effort",
+      "model": "gpt-5.5",
+      "reasoningEffort": "medium"
+    },
+    "55l": {
+      "title": "GPT-5.5 Low",
+      "description": "GPT-5.5 profile with medium reasoning effort",
+      "model": "gpt-5.5",
+      "reasoningEffort": "low"
+    },
+    "54xh": {
+      "title": "Codex XHigh",
+      "description": "GPT-5.4 profile with xhigh reasoning effort",
+      "model": "gpt-5.4",
+      "reasoningEffort": "xhigh"
+    },
+    "54h": {
+      "title": "Codex High",
+      "description": "GPT-5.4 profile with high reasoning effort",
+      "model": "gpt-5.4",
+      "reasoningEffort": "high"
+    },
+    "54m": {
+      "title": "Codex Medium",
+      "description": "GPT-5.4 profile with medium reasoning effort",
+      "model": "gpt-5.4",
+      "reasoningEffort": "medium"
+    }
+  },
+  "gemini": {
+    "pro": {
+      "title": "Pro",
+      "description": "Gemini 3.1 Pro for complex reasoning and coding tasks",
+      "model": "gemini-3.1-pro-preview"
+    },
+    "flash": {
+      "title": "Flash",
+      "description": "Gemini 3 Flash for fast, lightweight tasks",
+      "model": "gemini-3-flash-preview"
+    }
+  },
+  "opencode": {
+    "fireworks-kimi": {
+      "title": "Fireworks Kimi",
+      "description": "Kimi K2.5 Turbo routed through Fireworks",
+      "model": "fireworks-ai/accounts/fireworks/routers/kimi-k2p5-turbo"
+    },
+    "fireworks-minimax": {
+      "title": "Fireworks Minimax 2.7",
+      "description": "Minimax 2.7 routed through Fireworks",
+      "model": "fireworks-ai/accounts/fireworks/models/minimax-m2p7"
+    }
+  },
+  "grok": {
+    "build-h": {
+      "title": "Grok Build High",
+      "description": "Grok Build with high effort",
+      "model": "grok-build",
+      "effort": "high"
+    },
+    "build-m": {
+      "title": "Grok Build Medium",
+      "description": "Grok Build with medium effort",
+      "model": "grok-build",
+      "effort": "medium"
+    },
+    "build-xh": {
+      "title": "Grok Build XHigh",
+      "description": "Grok Build with xhigh effort",
+      "model": "grok-build",
+      "effort": "xhigh"
+    },
+    "build-max": {
+      "title": "Grok Build Max",
+      "description": "Grok Build with maximum effort",
+      "model": "grok-build",
+      "effort": "max"
+    }
+  }
+}
