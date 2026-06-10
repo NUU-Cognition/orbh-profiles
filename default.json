@@ -211,7 +211,7 @@
     }
   },
   "grok": {
-    "composer-25-fast": {
+    "c25": {
       "title": "Grok Composer 2.5 Fast",
       "description": "Grok Composer 2.5 Fast profile",
       "model": "grok-composer-2.5-fast"
