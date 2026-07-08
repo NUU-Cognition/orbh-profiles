@@ -216,29 +216,23 @@
       "description": "Grok Composer 2.5 Fast profile",
       "model": "grok-composer-2.5-fast"
     },
-    "build-h": {
-      "title": "Grok Build High",
+    "g45h": {
+      "title": "Grok 4.5 High",
       "description": "Grok Build with high effort",
-      "model": "grok-build",
+      "model": "grok-4.5",
       "effort": "high"
     },
-    "build-m": {
-      "title": "Grok Build Medium",
-      "description": "Grok Build with medium effort",
-      "model": "grok-build",
+    "g45m": {
+      "title": "Grok 4.5 High",
+      "description": "Grok Build with high effort",
+      "model": "grok-4.5",
       "effort": "medium"
     },
-    "build-xh": {
-      "title": "Grok Build XHigh",
-      "description": "Grok Build with xhigh effort",
-      "model": "grok-build",
-      "effort": "xhigh"
-    },
-    "build-max": {
-      "title": "Grok Build Max",
-      "description": "Grok Build with maximum effort",
-      "model": "grok-build",
-      "effort": "max"
+    "g45l": {
+      "title": "Grok 4.5 High",
+      "description": "Grok Build with high effort",
+      "model": "grok-4.5",
+      "effort": "low"
     }
   }
 }
