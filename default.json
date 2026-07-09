@@ -16,27 +16,33 @@
     },
     "f5mx": {
       "title": "Claude Fable Max",
-      "description": "Maximum capability Claude Fable 5 profile",
+      "description": "Claude Fable 5 profile with max effort",
       "model": "claude-fable-5",
       "effort": "max"
     },
     "f5xh": {
-      "title": "Claude Fable High",
-      "description": "High capability Claude Fable 5 profile",
+      "title": "Claude Fable XHigh",
+      "description": "Claude Fable 5 profile with xhigh effort",
       "model": "claude-fable-5",
       "effort": "xhigh"
     },
     "f5h": {
       "title": "Claude Fable High",
-      "description": "High capability Claude Fable 5 profile",
+      "description": "Claude Fable 5 profile with high effort",
       "model": "claude-fable-5",
       "effort": "high"
     },
     "f5m": {
       "title": "Claude Fable Medium",
-      "description": "Medium capability Claude Fable 5 profile",
+      "description": "Claude Fable 5 profile with medium effort",
       "model": "claude-fable-5",
       "effort": "medium"
+    },
+    "f5l": {
+      "title": "Claude Fable Low",
+      "description": "Claude Fable 5 profile with low effort",
+      "model": "claude-fable-5",
+      "effort": "low"
     },
     "o48uc": {
       "title": "Claude Opus Ultracode",
@@ -51,95 +57,78 @@
         "CLAUDE_CODE_WORKFLOWS": "1"
       }
     },
-    "s461m": {
-      "title": "Claude Sonnet",
-      "description": "Balanced Claude profile for everyday work",
-      "model": "sonnet[1m]",
-      "effort": "high"
-    },
     "o48mx": {
       "title": "Claude Opus Max",
-      "description": "Maximum capability Claude profile",
+      "description": "Claude Opus 4.8 profile with max effort",
       "model": "claude-opus-4-8",
       "effort": "max"
     },
     "o48xh": {
-      "title": "Claude Opus High",
-      "description": "High capability Claude profile",
+      "title": "Claude Opus XHigh",
+      "description": "Claude Opus 4.8 profile with xhigh effort",
       "model": "claude-opus-4-8",
       "effort": "xhigh"
     },
     "o48h": {
       "title": "Claude Opus High",
-      "description": "High capability Claude profile",
+      "description": "Claude Opus 4.8 profile with high effort",
       "model": "claude-opus-4-8",
       "effort": "high"
     },
     "o48m": {
       "title": "Claude Opus Medium",
-      "description": "Medium capability Claude profile",
+      "description": "Claude Opus 4.8 profile with medium effort",
       "model": "claude-opus-4-8",
       "effort": "medium"
     },
-    "o47mx": {
-      "title": "Claude Opus Max",
-      "description": "Maximum capability Claude profile",
-      "model": "claude-opus-4-7",
+    "o48l": {
+      "title": "Claude Opus Low",
+      "description": "Claude Opus 4.8 profile with low effort",
+      "model": "claude-opus-4-8",
+      "effort": "low"
+    },
+    "s5uc": {
+      "title": "Claude Sonnet Ultracode",
+      "description": "Sonnet 5 in ultracode mode \u2014 xhigh effort + standing dynamic-workflow orchestration",
+      "model": "claude-sonnet-5",
+      "effort": "xhigh",
+      "args": [
+        "--settings",
+        "{\"ultracode\":true}"
+      ],
+      "env": {
+        "CLAUDE_CODE_WORKFLOWS": "1"
+      }
+    },
+    "s5mx": {
+      "title": "Claude Sonnet Max",
+      "description": "Claude Sonnet 5 profile with max effort",
+      "model": "claude-sonnet-5",
       "effort": "max"
     },
-    "o47xh": {
-      "title": "Claude Opus High",
-      "description": "High capability Claude profile",
-      "model": "claude-opus-4-7",
+    "s5xh": {
+      "title": "Claude Sonnet XHigh",
+      "description": "Claude Sonnet 5 profile with xhigh effort",
+      "model": "claude-sonnet-5",
       "effort": "xhigh"
     },
-    "o47h": {
-      "title": "Claude Opus High",
-      "description": "High capability Claude profile",
-      "model": "claude-opus-4-7",
+    "s5h": {
+      "title": "Claude Sonnet High",
+      "description": "Claude Sonnet 5 profile with high effort",
+      "model": "claude-sonnet-5",
       "effort": "high"
     },
-    "o47m": {
-      "title": "Claude Opus Medium",
-      "description": "Medium capability Claude profile",
-      "model": "claude-opus-4-7",
+    "s5m": {
+      "title": "Claude Sonnet Medium",
+      "description": "Claude Sonnet 5 profile with medium effort",
+      "model": "claude-sonnet-5",
       "effort": "medium"
     },
-    "o46mx1m": {
-      "title": "Claude Opus Max",
-      "description": "Maximum capability Claude profile",
-      "model": "claude-opus-4-6[1m]",
-      "effort": "max"
-    },
-    "o46h1m": {
-      "title": "Claude Opus High",
-      "description": "High capability Claude profile",
-      "model": "claude-opus-4-6[1m]",
-      "effort": "high"
-    },
-    "o46m1m": {
-      "title": "Claude Opus Medium",
-      "description": "Medium capability Claude profile",
-      "model": "claude-opus-4-6[1m]",
-      "effort": "medium"
-    },
-    "o46mx": {
-      "title": "Claude Opus Max",
-      "description": "Maximum capability Claude profile",
-      "model": "claude-opus-4-6",
-      "effort": "max"
-    },
-    "o46h": {
-      "title": "Claude Opus High",
-      "description": "High capability Claude profile",
-      "model": "claude-opus-4-6",
-      "effort": "high"
-    },
-    "o46m": {
-      "title": "Claude Opus Medium",
-      "description": "Medium capability Claude profile",
-      "model": "claude-opus-4-6",
-      "effort": "medium"
+    "s5l": {
+      "title": "Claude Sonnet Low",
+      "description": "Claude Sonnet 5 profile with low effort",
+      "model": "claude-sonnet-5",
+      "effort": "low"
     }
   },
   "codex": {
