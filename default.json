@@ -1,9 +1,9 @@
 {
-  "//": "DO NOT add your custom profiles here — this file is overwritten by `flint orbh profiles update`. Put your personal profiles in profiles.json instead.",
+  "//": "DO NOT add your custom profiles here \u2014 this file is overwritten by `flint orbh profiles update`. Put your personal profiles in profiles.json instead.",
   "claude": {
     "f5uc": {
       "title": "Claude Fable Ultracode",
-      "description": "Fable 5 in ultracode mode — xhigh effort + standing dynamic-workflow orchestration",
+      "description": "Fable 5 in ultracode mode \u2014 xhigh effort + standing dynamic-workflow orchestration",
       "model": "claude-fable-5",
       "effort": "xhigh",
       "args": [
@@ -40,7 +40,7 @@
     },
     "o48uc": {
       "title": "Claude Opus Ultracode",
-      "description": "Opus 4.8 in ultracode mode — xhigh effort + standing dynamic-workflow orchestration",
+      "description": "Opus 4.8 in ultracode mode \u2014 xhigh effort + standing dynamic-workflow orchestration",
       "model": "claude-opus-4-8",
       "effort": "xhigh",
       "args": [
@@ -143,47 +143,107 @@
     }
   },
   "codex": {
-    "55xh": {
-      "title": "GPT-5.5 XHigh",
-      "description": "GPT-5.5 profile with xhigh reasoning effort",
-      "model": "gpt-5.5",
+    "solu": {
+      "title": "GPT-5.6 Sol Ultra",
+      "description": "GPT-5.6 Sol (flagship) with ultra reasoning effort",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "ultra"
+    },
+    "solmx": {
+      "title": "GPT-5.6 Sol Max",
+      "description": "GPT-5.6 Sol (flagship) with max reasoning effort",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "max"
+    },
+    "solxh": {
+      "title": "GPT-5.6 Sol XHigh",
+      "description": "GPT-5.6 Sol (flagship) with xhigh reasoning effort",
+      "model": "gpt-5.6-sol",
       "reasoningEffort": "xhigh"
     },
-    "55h": {
-      "title": "GPT-5.5 High",
-      "description": "GPT-5.5 profile with high reasoning effort",
-      "model": "gpt-5.5",
+    "solh": {
+      "title": "GPT-5.6 Sol High",
+      "description": "GPT-5.6 Sol (flagship) with high reasoning effort",
+      "model": "gpt-5.6-sol",
       "reasoningEffort": "high"
     },
-    "55m": {
-      "title": "GPT-5.5 Medium",
-      "description": "GPT-5.5 profile with medium reasoning effort",
-      "model": "gpt-5.5",
+    "solm": {
+      "title": "GPT-5.6 Sol Medium",
+      "description": "GPT-5.6 Sol (flagship) with medium reasoning effort",
+      "model": "gpt-5.6-sol",
       "reasoningEffort": "medium"
     },
-    "55l": {
-      "title": "GPT-5.5 Low",
-      "description": "GPT-5.5 profile with medium reasoning effort",
-      "model": "gpt-5.5",
+    "soll": {
+      "title": "GPT-5.6 Sol Low",
+      "description": "GPT-5.6 Sol (flagship) with low reasoning effort",
+      "model": "gpt-5.6-sol",
       "reasoningEffort": "low"
     },
-    "54xh": {
-      "title": "Codex XHigh",
-      "description": "GPT-5.4 profile with xhigh reasoning effort",
-      "model": "gpt-5.4",
+    "teru": {
+      "title": "GPT-5.6 Terra Ultra",
+      "description": "GPT-5.6 Terra (balanced) with ultra reasoning effort",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "ultra"
+    },
+    "termx": {
+      "title": "GPT-5.6 Terra Max",
+      "description": "GPT-5.6 Terra (balanced) with max reasoning effort",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "max"
+    },
+    "terxh": {
+      "title": "GPT-5.6 Terra XHigh",
+      "description": "GPT-5.6 Terra (balanced) with xhigh reasoning effort",
+      "model": "gpt-5.6-terra",
       "reasoningEffort": "xhigh"
     },
-    "54h": {
-      "title": "Codex High",
-      "description": "GPT-5.4 profile with high reasoning effort",
-      "model": "gpt-5.4",
+    "terh": {
+      "title": "GPT-5.6 Terra High",
+      "description": "GPT-5.6 Terra (balanced) with high reasoning effort",
+      "model": "gpt-5.6-terra",
       "reasoningEffort": "high"
     },
-    "54m": {
-      "title": "Codex Medium",
-      "description": "GPT-5.4 profile with medium reasoning effort",
-      "model": "gpt-5.4",
+    "term": {
+      "title": "GPT-5.6 Terra Medium",
+      "description": "GPT-5.6 Terra (balanced) with medium reasoning effort",
+      "model": "gpt-5.6-terra",
       "reasoningEffort": "medium"
+    },
+    "terl": {
+      "title": "GPT-5.6 Terra Low",
+      "description": "GPT-5.6 Terra (balanced) with low reasoning effort",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "low"
+    },
+    "lunmx": {
+      "title": "GPT-5.6 Luna Max",
+      "description": "GPT-5.6 Luna (fast/affordable) with max reasoning effort",
+      "model": "gpt-5.6-luna",
+      "reasoningEffort": "max"
+    },
+    "lunxh": {
+      "title": "GPT-5.6 Luna XHigh",
+      "description": "GPT-5.6 Luna (fast/affordable) with xhigh reasoning effort",
+      "model": "gpt-5.6-luna",
+      "reasoningEffort": "xhigh"
+    },
+    "lunh": {
+      "title": "GPT-5.6 Luna High",
+      "description": "GPT-5.6 Luna (fast/affordable) with high reasoning effort",
+      "model": "gpt-5.6-luna",
+      "reasoningEffort": "high"
+    },
+    "lunm": {
+      "title": "GPT-5.6 Luna Medium",
+      "description": "GPT-5.6 Luna (fast/affordable) with medium reasoning effort",
+      "model": "gpt-5.6-luna",
+      "reasoningEffort": "medium"
+    },
+    "lunl": {
+      "title": "GPT-5.6 Luna Low",
+      "description": "GPT-5.6 Luna (fast/affordable) with low reasoning effort",
+      "model": "gpt-5.6-luna",
+      "reasoningEffort": "low"
     }
   },
   "gemini": {
