@@ -44,10 +44,10 @@
       "model": "claude-fable-5",
       "effort": "low"
     },
-    "o48uc": {
+    "o5uc": {
       "title": "Claude Opus Ultracode",
-      "description": "Opus 4.8 in ultracode mode \u2014 xhigh effort + standing dynamic-workflow orchestration",
-      "model": "claude-opus-4-8",
+      "description": "Opus 5 in ultracode mode \u2014 xhigh effort + standing dynamic-workflow orchestration",
+      "model": "claude-opus-5",
       "effort": "xhigh",
       "args": [
         "--settings",
@@ -57,34 +57,34 @@
         "CLAUDE_CODE_WORKFLOWS": "1"
       }
     },
-    "o48mx": {
+    "o5mx": {
       "title": "Claude Opus Max",
-      "description": "Claude Opus 4.8 profile with max effort",
-      "model": "claude-opus-4-8",
+      "description": "Claude Opus 5 profile with max effort",
+      "model": "claude-opus-5",
       "effort": "max"
     },
-    "o48xh": {
+    "o5xh": {
       "title": "Claude Opus XHigh",
-      "description": "Claude Opus 4.8 profile with xhigh effort",
-      "model": "claude-opus-4-8",
+      "description": "Claude Opus 5 profile with xhigh effort",
+      "model": "claude-opus-5",
       "effort": "xhigh"
     },
-    "o48h": {
+    "o5h": {
       "title": "Claude Opus High",
-      "description": "Claude Opus 4.8 profile with high effort",
-      "model": "claude-opus-4-8",
+      "description": "Claude Opus 5 profile with high effort",
+      "model": "claude-opus-5",
       "effort": "high"
     },
-    "o48m": {
+    "o5m": {
       "title": "Claude Opus Medium",
-      "description": "Claude Opus 4.8 profile with medium effort",
-      "model": "claude-opus-4-8",
+      "description": "Claude Opus 5 profile with medium effort",
+      "model": "claude-opus-5",
       "effort": "medium"
     },
-    "o48l": {
+    "o5l": {
       "title": "Claude Opus Low",
-      "description": "Claude Opus 4.8 profile with low effort",
-      "model": "claude-opus-4-8",
+      "description": "Claude Opus 5 profile with low effort",
+      "model": "claude-opus-5",
       "effort": "low"
     },
     "s5uc": {
