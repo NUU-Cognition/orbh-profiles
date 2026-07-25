@@ -87,6 +87,49 @@
       "model": "claude-opus-5",
       "effort": "low"
     },
+    "o48uc": {
+      "title": "Claude Opus 4.8 Ultracode",
+      "description": "Opus 4.8 in ultracode mode \u2014 xhigh effort + standing dynamic-workflow orchestration",
+      "model": "claude-opus-4-8",
+      "effort": "xhigh",
+      "args": [
+        "--settings",
+        "{\"ultracode\":true}"
+      ],
+      "env": {
+        "CLAUDE_CODE_WORKFLOWS": "1"
+      }
+    },
+    "o48mx": {
+      "title": "Claude Opus 4.8 Max",
+      "description": "Claude Opus 4.8 profile with max effort",
+      "model": "claude-opus-4-8",
+      "effort": "max"
+    },
+    "o48xh": {
+      "title": "Claude Opus 4.8 XHigh",
+      "description": "Claude Opus 4.8 profile with xhigh effort",
+      "model": "claude-opus-4-8",
+      "effort": "xhigh"
+    },
+    "o48h": {
+      "title": "Claude Opus 4.8 High",
+      "description": "Claude Opus 4.8 profile with high effort",
+      "model": "claude-opus-4-8",
+      "effort": "high"
+    },
+    "o48m": {
+      "title": "Claude Opus 4.8 Medium",
+      "description": "Claude Opus 4.8 profile with medium effort",
+      "model": "claude-opus-4-8",
+      "effort": "medium"
+    },
+    "o48l": {
+      "title": "Claude Opus 4.8 Low",
+      "description": "Claude Opus 4.8 profile with low effort",
+      "model": "claude-opus-4-8",
+      "effort": "low"
+    },
     "s5uc": {
       "title": "Claude Sonnet Ultracode",
       "description": "Sonnet 5 in ultracode mode \u2014 xhigh effort + standing dynamic-workflow orchestration",
