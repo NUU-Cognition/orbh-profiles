@@ -187,31 +187,31 @@
     }
   },
   "codex": {
-    "astmx": {
+    "a6mx": {
       "title": "GPT-6 Astra Max",
       "description": "GPT-6 Astra (most capable) with max reasoning effort",
       "model": "gpt-6-astra",
       "reasoningEffort": "max"
     },
-    "astxh": {
+    "a6xh": {
       "title": "GPT-6 Astra XHigh",
       "description": "GPT-6 Astra (most capable) with xhigh reasoning effort",
       "model": "gpt-6-astra",
       "reasoningEffort": "xhigh"
     },
-    "asth": {
+    "a6h": {
       "title": "GPT-6 Astra High",
       "description": "GPT-6 Astra (most capable) with high reasoning effort",
       "model": "gpt-6-astra",
       "reasoningEffort": "high"
     },
-    "astm": {
+    "a6m": {
       "title": "GPT-6 Astra Medium",
       "description": "GPT-6 Astra (most capable) with medium reasoning effort",
       "model": "gpt-6-astra",
       "reasoningEffort": "medium"
     },
-    "astl": {
+    "a6l": {
       "title": "GPT-6 Astra Low",
       "description": "GPT-6 Astra (most capable) with low reasoning effort",
       "model": "gpt-6-astra",
