@@ -187,6 +187,36 @@
     }
   },
   "codex": {
+    "astmx": {
+      "title": "GPT-6 Astra Max",
+      "description": "GPT-6 Astra (most capable) with max reasoning effort",
+      "model": "gpt-6-astra",
+      "reasoningEffort": "max"
+    },
+    "astxh": {
+      "title": "GPT-6 Astra XHigh",
+      "description": "GPT-6 Astra (most capable) with xhigh reasoning effort",
+      "model": "gpt-6-astra",
+      "reasoningEffort": "xhigh"
+    },
+    "asth": {
+      "title": "GPT-6 Astra High",
+      "description": "GPT-6 Astra (most capable) with high reasoning effort",
+      "model": "gpt-6-astra",
+      "reasoningEffort": "high"
+    },
+    "astm": {
+      "title": "GPT-6 Astra Medium",
+      "description": "GPT-6 Astra (most capable) with medium reasoning effort",
+      "model": "gpt-6-astra",
+      "reasoningEffort": "medium"
+    },
+    "astl": {
+      "title": "GPT-6 Astra Low",
+      "description": "GPT-6 Astra (most capable) with low reasoning effort",
+      "model": "gpt-6-astra",
+      "reasoningEffort": "low"
+    },
     "solu": {
       "title": "GPT-5.6 Sol Ultra",
       "description": "GPT-5.6 Sol (flagship) with ultra reasoning effort",
