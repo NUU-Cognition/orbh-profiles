@@ -1,6 +1,49 @@
 {
   "//": "DO NOT add your custom profiles here — this file is overwritten by `flint orbh profiles update`. Put your personal profiles in profiles.json instead.",
   "claude": {
+    "o55uc": {
+      "title": "Claude Opus 5.5 Ultracode",
+      "description": "Opus 5.5 in ultracode mode — xhigh effort + standing dynamic-workflow orchestration",
+      "model": "claude-opus-5-5",
+      "effort": "xhigh",
+      "args": [
+        "--settings",
+        "{\"ultracode\":true}"
+      ],
+      "env": {
+        "CLAUDE_CODE_WORKFLOWS": "1"
+      }
+    },
+    "o55xh": {
+      "title": "Claude Opus 5.5 XHigh",
+      "description": "Claude Opus 5.5 profile with xhigh effort",
+      "model": "claude-opus-5-5",
+      "effort": "xhigh"
+    },
+    "o55h": {
+      "title": "Claude Opus 5.5 High",
+      "description": "Claude Opus 5.5 profile with high effort",
+      "model": "claude-opus-5-5",
+      "effort": "high"
+    },
+    "o55m": {
+      "title": "Claude Opus 5.5 Medium",
+      "description": "Claude Opus 5.5 profile with medium effort",
+      "model": "claude-opus-5-5",
+      "effort": "medium"
+    },
+    "o55l": {
+      "title": "Claude Opus 5.5 Low",
+      "description": "Claude Opus 5.5 profile with low effort",
+      "model": "claude-opus-5-5",
+      "effort": "low"
+    },
+    "o55mx": {
+      "title": "Claude Opus 5.5 Max",
+      "description": "Claude Opus 5.5 profile with max effort",
+      "model": "claude-opus-5-5",
+      "effort": "max"
+    },
     "f51xh": {
       "title": "Claude Fable 5.1 XHigh",
       "description": "Claude Fable 5.1 profile with xhigh effort",
