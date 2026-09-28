@@ -1,6 +1,49 @@
 {
   "//": "DO NOT add your custom profiles here — this file is overwritten by `flint orbh profiles update`. Put your personal profiles in profiles.json instead.",
   "claude": {
+    "s55uc": {
+      "title": "Claude Sonnet 5.5 Ultracode",
+      "description": "Sonnet 5.5 in ultracode mode — xhigh effort + standing dynamic-workflow orchestration",
+      "model": "claude-sonnet-5-5",
+      "effort": "xhigh",
+      "args": [
+        "--settings",
+        "{\"ultracode\":true}"
+      ],
+      "env": {
+        "CLAUDE_CODE_WORKFLOWS": "1"
+      }
+    },
+    "s55xh": {
+      "title": "Claude Sonnet 5.5 XHigh",
+      "description": "Claude Sonnet 5.5 profile with xhigh effort",
+      "model": "claude-sonnet-5-5",
+      "effort": "xhigh"
+    },
+    "s55h": {
+      "title": "Claude Sonnet 5.5 High",
+      "description": "Claude Sonnet 5.5 profile with high effort",
+      "model": "claude-sonnet-5-5",
+      "effort": "high"
+    },
+    "s55m": {
+      "title": "Claude Sonnet 5.5 Medium",
+      "description": "Claude Sonnet 5.5 profile with medium effort",
+      "model": "claude-sonnet-5-5",
+      "effort": "medium"
+    },
+    "s55l": {
+      "title": "Claude Sonnet 5.5 Low",
+      "description": "Claude Sonnet 5.5 profile with low effort",
+      "model": "claude-sonnet-5-5",
+      "effort": "low"
+    },
+    "s55mx": {
+      "title": "Claude Sonnet 5.5 Max",
+      "description": "Claude Sonnet 5.5 profile with max effort",
+      "model": "claude-sonnet-5-5",
+      "effort": "max"
+    },
     "o55uc": {
       "title": "Claude Opus 5.5 Ultracode",
       "description": "Opus 5.5 in ultracode mode — xhigh effort + standing dynamic-workflow orchestration",
