@@ -303,6 +303,36 @@
       "model": "gpt-6-astra",
       "reasoningEffort": "low"
     },
+    "s61mx": {
+      "title": "GPT-6.1 Sol Max",
+      "description": "GPT-6.1 Sol (mid-tier, Astra-class) with max reasoning effort",
+      "model": "gpt-6.1-sol",
+      "reasoningEffort": "max"
+    },
+    "s61xh": {
+      "title": "GPT-6.1 Sol XHigh",
+      "description": "GPT-6.1 Sol (mid-tier, Astra-class) with xhigh reasoning effort",
+      "model": "gpt-6.1-sol",
+      "reasoningEffort": "xhigh"
+    },
+    "s61h": {
+      "title": "GPT-6.1 Sol High",
+      "description": "GPT-6.1 Sol (mid-tier, Astra-class) with high reasoning effort",
+      "model": "gpt-6.1-sol",
+      "reasoningEffort": "high"
+    },
+    "s61m": {
+      "title": "GPT-6.1 Sol Medium",
+      "description": "GPT-6.1 Sol (mid-tier, Astra-class) with medium reasoning effort",
+      "model": "gpt-6.1-sol",
+      "reasoningEffort": "medium"
+    },
+    "s61l": {
+      "title": "GPT-6.1 Sol Low",
+      "description": "GPT-6.1 Sol (mid-tier, Astra-class) with low reasoning effort",
+      "model": "gpt-6.1-sol",
+      "reasoningEffort": "low"
+    },
     "solu": {
       "title": "GPT-5.6 Sol Ultra",
       "description": "GPT-5.6 Sol (flagship) with ultra reasoning effort",
