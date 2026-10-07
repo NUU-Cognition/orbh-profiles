@@ -1,6 +1,49 @@
 {
   "//": "DO NOT add your custom profiles here — this file is overwritten by `flint orbh profiles update`. Put your personal profiles in profiles.json instead.",
   "claude": {
+    "h55uc": {
+      "title": "Claude Haiku 5.5 Ultracode",
+      "description": "Haiku 5.5 in ultracode mode — xhigh effort + standing dynamic-workflow orchestration",
+      "model": "claude-haiku-5-5",
+      "effort": "xhigh",
+      "args": [
+        "--settings",
+        "{\"ultracode\":true}"
+      ],
+      "env": {
+        "CLAUDE_CODE_WORKFLOWS": "1"
+      }
+    },
+    "h55xh": {
+      "title": "Claude Haiku 5.5 XHigh",
+      "description": "Claude Haiku 5.5 profile with xhigh effort",
+      "model": "claude-haiku-5-5",
+      "effort": "xhigh"
+    },
+    "h55h": {
+      "title": "Claude Haiku 5.5 High",
+      "description": "Claude Haiku 5.5 profile with high effort",
+      "model": "claude-haiku-5-5",
+      "effort": "high"
+    },
+    "h55m": {
+      "title": "Claude Haiku 5.5 Medium",
+      "description": "Claude Haiku 5.5 profile with medium effort",
+      "model": "claude-haiku-5-5",
+      "effort": "medium"
+    },
+    "h55l": {
+      "title": "Claude Haiku 5.5 Low",
+      "description": "Claude Haiku 5.5 profile with low effort",
+      "model": "claude-haiku-5-5",
+      "effort": "low"
+    },
+    "h55mx": {
+      "title": "Claude Haiku 5.5 Max",
+      "description": "Claude Haiku 5.5 profile with max effort",
+      "model": "claude-haiku-5-5",
+      "effort": "max"
+    },
     "s55uc": {
       "title": "Claude Sonnet 5.5 Ultracode",
       "description": "Sonnet 5.5 in ultracode mode — xhigh effort + standing dynamic-workflow orchestration",
